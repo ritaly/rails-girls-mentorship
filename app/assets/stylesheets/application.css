@@ -14,8 +14,8 @@
  *= require_self
  */
 
-body { padding-top: 100px; }
-footer { margin-top: 100px; }
+body { padding-top: 20px; }
+footer { margin-top: 50px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
 a {
@@ -30,4 +30,17 @@ a:hover {
 }
 a:visited {
 	color: #5c5c5c;
+}
+
+a.btn {
+	color: #fff;
+}
+a:hover.btn {
+	opacity:0.5;
+}
+a:visited.btn {
+	color: #fff;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width:100%;
 }
